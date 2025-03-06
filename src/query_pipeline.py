@@ -79,7 +79,3 @@ class QueryPipeline:
                 results.append(step)
 
         return results[-1] if results else None
-# #     print(step)
-
-
-# qp.process_question("What is the total number of employees?", config=config)
