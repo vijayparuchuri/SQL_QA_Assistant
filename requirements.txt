@@ -1,0 +1,25 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-ollama>=0.0.3
+langgraph>=0.0.10
+
+# Database
+mysql-connector-python>=8.0.0
+sqlalchemy>=2.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# Type hints
+typing-extensions>=4.7.0
+
+# Optional but recommended for development
+black>=23.0.0  # Code formatting
+flake8>=6.0.0  # Code linting
+pytest>=7.0.0  # Testing
+mypy>=1.0.0   # Type checking
+
+# Logging and monitoring (optional)
+loguru>=0.7.0  # Better logging

@@ -1,0 +1,5 @@
+pyrightconfig.json
+QA_Over_SQL.py
+.env
+.venv
+__pycache__

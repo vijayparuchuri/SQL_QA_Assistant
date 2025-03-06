@@ -1,0 +1,8 @@
+database:
+  host: localhost
+  port: 3306
+  name: Chinook
+
+model:
+  name: "qwen2.5:7b"
+  temperature: 0.7
