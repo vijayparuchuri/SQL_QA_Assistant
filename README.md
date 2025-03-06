@@ -2,6 +2,7 @@
 
 A natural language to SQL query assistant that allows users to interact with databases using conversational language. The application leverages LLMs to translate natural language questions into SQL queries and provide human-readable answers.
 
+![image](https://github.com/vijayparuchuri/SQL_QA_Assistant/blob/main/SQL_QA_Graph.png)
 ## Features
 
 - Natural language to SQL query conversion
