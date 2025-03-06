@@ -79,24 +79,6 @@ class QueryPipeline:
                 results.append(step)
 
         return results[-1] if results else None
-
-# config = load_config()
-# db = DatabaseConnection(config)
-# db.get_tables()
-
-# qp = QueryPipeline(db, config["model"])
-# # bla = qp.write_query({"question": "What is the total number of employees?"})
-# # print(bla)
-# # qp.execute_query({"query": bla["query"]})
-
-# # memory = MemorySaver()
-# # graph = qp.graph_builder.compile(checkpointer=memory, interrupt_before=["execute_query"])
-# config = {"configurable": {"thread_id": 1}}
-# # for step in qp.graph.stream(
-# #     {"question": "What is the total number of employees?"},
-# #     config=config,
-# #     stream_mode="updates"
-# # ):
 # #     print(step)
 
 
